@@ -15,6 +15,7 @@ The repo for studying and sharing diffusion models with Korean.
     - [Classifier guidance sampling](#any papers with classifier guidance sampling)
     - [Image Editing](#image-editing)
     - [Text-to-Image](#text-to-image)
+    - [Fast Sampling] (#Fast Sampling)
 
     
   
@@ -185,5 +186,18 @@ NeurlPS 2022. [[Paper](https://arxiv.org/abs/2111.05826)] \
 10 Nov 2021 \
 별거 안하고 그냥 튜닝해서 모델 하나로 4가지 task에서 SOTA 달성.
 
-
 ### Text-to-Image
+
+
+### Fast Sampling
+
+**Learning Fast Samplers for Diffusion Models by Differentiating Through Sample Quality** \
+*Daniel Watson, William Chan, Jonathan Ho, Mohammad Norouzi \
+ICLR 2022. [[Paper](https://openreview.net/forum?id=VFBjuF8HEp)]  \
+11 Feb 2022 \
+Pre-trained을 fine-tunning 하지 않고 step#를 줄여서 빠르게 sampling 하면서도 FID/IS 를 최대한 유지할 수 있는 방법제시,
+diffusion의 object function(ELBO) term을 무시하고, step과 step사이에 sampling하는 paremeter들만 KID loss 를 줘서 train.
+
+
+
+, Daniel Watson et al., 2022
