@@ -11,11 +11,11 @@ The repo for studying and sharing diffusion models with Korean.
     - [Must-read papers](#must-read-papers)
     - [Connection with other framworks](#connection-to-others)
     - [Image Generation](#image-generation)
-    - [Image space guidance sampling](#generative with conditioned images)
+    - [Image space guidance sampling](#generative-with-conditioned-images)
     - [Classifier guidance sampling](#any papers with classifier guidance sampling)
     - [Image Editing](#image-editing)
     - [Text-to-Image](#text-to-image)
-    - [Fast Sampling] (#Fast Sampling)
+    - [Fast Sampling] (#fast-sampling)
 
     
   
